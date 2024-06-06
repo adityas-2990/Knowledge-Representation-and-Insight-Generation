@@ -6,7 +6,7 @@ import sys
 
 def main():
     st.title("Talk to your Data")
-    uploaded_file = st.sidebar.file_uploader("Upload CSV", type="csv")
+    uploaded_file = st.sidebar.file_uploader("Upload Your Database", type="csv")
 
     if uploaded_file is not None:
         df = pd.read_csv(uploaded_file)

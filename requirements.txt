@@ -2,3 +2,9 @@ streamlit
 pandas
 numpy
 matplotlib
+langchain
+huggingface_hub
+python-dotenv
+ctransformers
+sentence-transformers
+faiss-cpu
